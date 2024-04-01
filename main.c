@@ -4,7 +4,7 @@
 #define A 10
 int main()
 {
-    int a = 5;
+    error int a = 5;
     int b = 3;
     int result = sum(&a, &b);
     printf("Definition: %d\n", A);
