@@ -2,7 +2,8 @@ name: compile-code-action
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  check-bats-version:
+  compile-main-program:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - run: make
